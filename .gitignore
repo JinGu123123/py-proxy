@@ -1,0 +1,18 @@
+# 虚拟环境
+venv/
+
+# 证书与私钥（绝对不能提交！）
+*.key
+*.crt
+*.csr
+
+# 临时文件
+temp.*
+
+# 编辑器配置
+.vscode/
+*.code-workspace
+
+# Python 缓存
+__pycache__/
+*.pyc
