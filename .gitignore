@@ -5,6 +5,7 @@ venv/
 *.key
 *.crt
 *.csr
+*.pem
 
 # 临时文件
 temp.*
@@ -16,3 +17,10 @@ temp.*
 # Python 缓存
 __pycache__/
 *.pyc
+
+# 抓包文件
+*.pcap
+*.pcapng
+
+# 运行时生成的证书目录
+certs/
